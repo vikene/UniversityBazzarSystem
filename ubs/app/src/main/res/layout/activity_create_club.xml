@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.team5.ubs.createClub">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Club Name:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cclubname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clubEditName"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clubEditName"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Club Description:"
+        android:id="@+id/clubDesT"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/clubDesT"
+        android:id="@+id/cdesc"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clubTypeD"
+        android:layout_below="@id/cdesc"
+        android:layout_marginTop="20dp"
+        android:text="Club Type:"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clubTypeD"
+        android:id="@+id/clubType"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clubType"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#4286f4"
+        android:textColor="#fff"
+        android:text="Submit"
+        android:id="@+id/clubCreateSubmit"
+        />
+
+
+</RelativeLayout>

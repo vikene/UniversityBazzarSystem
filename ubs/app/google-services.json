@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "928577098532",
+    "firebase_url": "https://university-bazzar-system-team5.firebaseio.com",
+    "project_id": "university-bazzar-system-team5",
+    "storage_bucket": "university-bazzar-system-team5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928577098532:android:c3afe8e2bc761113",
+        "android_client_info": {
+          "package_name": "com.team5.ubs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928577098532-0nv5jed7l6sjf74n0stt2l8sct411d14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team5.ubs",
+            "certificate_hash": "4bc7edbfa2473ef7bbb5d476b4fc487d38708095"
+          }
+        },
+        {
+          "client_id": "928577098532-o6vsodg439d7ut9u62h1vpieaagv6d4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABrc7x95R9QTwdpPwNR6C9sgrnvy3YZkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928577098532-o6vsodg439d7ut9u62h1vpieaagv6d4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

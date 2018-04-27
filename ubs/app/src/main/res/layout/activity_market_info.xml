@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team5.ubs.market_info">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20dp"
+        android:id="@+id/dispMName"
+        android:paddingTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dispMPrice"
+        android:textSize="20dp"
+        android:text="Price"
+        android:layout_below="@id/dispMName"
+        android:paddingTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dispMdescription"
+        android:textSize="20dp"
+        android:text="description"
+        android:layout_below="@id/dispMPrice"
+        android:paddingTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dispMlending"
+        android:textSize="20dp"
+        android:text="Lending"
+        android:layout_below="@id/dispMdescription"
+        android:paddingTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dispMSeller"
+        android:textSize="20dp"
+        android:text="Seller"
+        android:layout_below="@id/dispMlending"
+        android:paddingTop="20dp"
+
+        />
+
+
+</RelativeLayout>

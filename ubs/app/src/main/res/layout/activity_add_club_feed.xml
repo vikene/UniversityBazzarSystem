@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.team5.ubs.add_clubFeed">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Club name"
+        android:gravity="center"
+        android:id="@+id/clubNameFeed"
+        android:textSize="40dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/posttitle"
+        android:layout_below="@id/clubNameFeed"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postDescription"
+        android:layout_below="@id/posttitle"
+        android:textSize="20dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postClubFeed"
+        android:layout_below="@+id/postDescription"
+        android:background="#4286f4"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="Post"
+        android:layout_marginRight="10dp"
+        />
+
+</RelativeLayout>
